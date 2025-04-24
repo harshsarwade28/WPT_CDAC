@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)file:///E:/PG-DAC/WPT/Assignment%2001/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Sarwade - Resume</title>
+    <link rel="stylesheet" href="./Resume_files/index.css">
+</head>
+<body>
+    <div class="resume-wrapper">
+        <aside class="sidebar">
+            <div class="profile">
+                <h1>Harsh Sarwade</h1>
+                <p>Software Developer</p>
+            </div>
+            <div class="contact">
+                <h3>Contact</h3>
+                <ul>
+                    <li>Pune, Maharashtra</li>
+                    <li>harshsarwadebeed@gmail.com</li>
+                    <li><a href="https://www.linkedin.com/in/harshsarwade" target="_blank">linkedin.com/in/harshsarwade</a></li>
+                </ul>
+            </div>
+            <div class="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Java, JavaScript</li>
+                    <li>MySQL</li>
+                    <li>HTML, CSS</li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="content">
+            <section class="summary">
+                <h2>Summary</h2>
+                <p>A passionate and detail-oriented Software Developer with expertise in front-end and back-end technologies. Proficient in Java, JavaScript, and SQL. Skilled at designing scalable solutions and crafting responsive user experiences tailored to client needs.</p>
+            </section>
+
+            <section class="education">
+                <h2>Education</h2>
+                <div class="edu-item">
+                    <h3>B.Tech in Computer Science and Engineering</h3>
+                    <p>Adarsh College Of Engineering, Sangli</p>
+                    <p>2021 - 2024 | CGPA: 7.00</p>
+                </div>
+                <div class="edu-item">
+                    <h3>Diploma in Computer Technology</h3>
+                    <p>Government Polytechnic, Beed</p>
+                    <p>2018 - 2021 | CGPA: 8.00</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+
+</body></html>

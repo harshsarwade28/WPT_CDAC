@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f4f8;
+  color: #333;
+  padding: 40px 20px;
+}
+
+.form-wrapper {
+  max-width: 900px;
+  margin: auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-header h1 {
+  font-size: 2.5rem;
+  color: #003566;
+}
+
+.form-header span {
+  color: #00b4d8;
+}
+
+.reg-date {
+  margin-top: 10px;
+}
+
+.reg-date label {
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.reg-date input {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+.card {
+  background: #f9fafb;
+  border-left: 4px solid #00b4d8;
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.card h2 {
+  color: #0077b6;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 30px;
+}
+
+.form-grid label {
+  font-weight: 600;
+  grid-column: span 1;
+}
+
+.form-grid input[type="text"],
+.form-grid input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.radio-group {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.card-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  border-top: 2px solid #e0e0e0;
+  padding-top: 30px;
+}
+
+.school-info h3 {
+  font-size: 1.2rem;
+  color: #003566;
+  margin-bottom: 10px;
+}
+
+.school-info span {
+  color: #00b4d8;
+}
+
+.signatures {
+  flex: 1;
+}
+
+.signatures p {
+  margin: 10px 0;
+}
+
+button {
+  margin-top: 20px;
+  margin-left: 330px;
+  padding: 12px 24px;
+  background-color: #00b4d8;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0091b1;
+}
+
+.thank-you {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #0077b6;
+  margin-left: 300px;
+}
+
+.thank-you span {
+  color: #00b4d8;
+}

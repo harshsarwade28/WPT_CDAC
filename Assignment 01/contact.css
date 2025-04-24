@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(120deg, #dff6ff, #b9e4ff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.contact-wrapper {
+  width: 100%;
+  max-width: 600px;
+}
+
+.contact-box {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.contact-box h2 {
+  font-size: 2rem;
+  color: #003566;
+  margin-bottom: 10px;
+}
+
+.contact-box .subtext {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input-group {
+  position: relative;
+  width: 100%;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 14px 14px 14px 14px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.input-group textarea {
+  resize: none;
+  min-height: 120px;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  border-color: #007bff;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+}
+
+.input-group label {
+  position: absolute;
+  top: 50%;
+  left: 14px;
+  transform: translateY(-50%);
+  color: #777;
+  font-size: 0.95rem;
+  pointer-events: none;
+  background-color: transparent;
+  transition: 0.3s ease all;
+}
+
+.input-group input:focus + label,
+.input-group input:not(:placeholder-shown):valid + label,
+.input-group textarea:focus + label,
+.input-group textarea:not(:placeholder-shown):valid + label {
+  top: -10px;
+  left: 10px;
+  background-color: #ffffff;
+  font-size: 0.8rem;
+  color: #007bff;
+  padding: 0 5px;
+}
+
+button {
+  padding: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: scale(0.98);
+}
