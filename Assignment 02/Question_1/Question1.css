@@ -1,0 +1,12 @@
+.div1{
+    border: solid black 2px;
+    height: 300px;
+    padding: 20px;
+}
+
+.btn{
+   
+    justify-content: center;
+    margin: 20px auto;
+    gap: 15px;
+}
